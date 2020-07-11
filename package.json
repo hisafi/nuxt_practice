@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "generate": "nuxt build && nuxt export",
+    "generate": "BASE=/nuxt_practice/ nuxt build && nuxt export",
     "dev": "nuxt",
     "test": "jest",
     "build": "nuxt build",
